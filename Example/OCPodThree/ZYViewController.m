@@ -7,6 +7,7 @@
 //
 
 #import "ZYViewController.h"
+@import OCPodThree;
 
 @interface ZYViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    Lion *lion = [[Lion alloc] init];
+    [lion run];
 }
 
 - (void)didReceiveMemoryWarning

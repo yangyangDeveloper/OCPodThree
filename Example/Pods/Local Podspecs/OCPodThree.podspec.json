@@ -1,7 +1,7 @@
 {
   "name": "OCPodThree",
   "version": "0.1.0",
-  "summary": "A short description of OCPodThree.",
+  "summary": "OC创建pod ocswift混编",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangyangDeveloper/OCPodThree",
   "license": {
@@ -12,7 +12,7 @@
     "yangyangDeveloper": "zyydeveloper@163.com"
   },
   "source": {
-    "git": "https://github.com/yangyangDeveloper/OCPodThree.git",
+    "git": "git@github.com:yangyangDeveloper/OCPodThree.git",
     "tag": "0.1.0"
   },
   "platforms": {

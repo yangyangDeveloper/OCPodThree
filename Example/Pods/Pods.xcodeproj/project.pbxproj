@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D855231058F3B526FD1BA579A55B651 /* OCPodThree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F26D027723E7FD8CD86757D85DC3DE6 /* OCPodThree-dummy.m */; };
 		22EC31E8E52EC506F90E362B80535901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5809CED3C08A77A85AAAA4AB3213159A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 785C4A47A6E9FB5D3F3B56040738474F /* ReplaceMe.m */; };
+		4D26B6F33968D34B1E963C1D23B53E9C /* Lion.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B6521502CBE06D47C34A8FEC1CD53E /* Lion.m */; };
+		57ACD6B31A1487AA1B225454C039BE5D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B886872AF4FE8B9BCAF1D83928B67010 /* ReplaceMe.m */; };
 		5A660AB5982A9C0ACDB79E2C4B054888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63B6D794D8E4F8D42FCEE272E4C184A9 /* Pods-OCPodThree_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CC8DCA9C8E60392D60AE16B64FB02 /* Pods-OCPodThree_Example-dummy.m */; };
 		65A2E46B79318671406CF532E85AB829 /* Pods-OCPodThree_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F14AB524910B708412AF32BC79AC040 /* Pods-OCPodThree_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77DA684C3C164D6C19D717E1439F306E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		826816DC9002037AB028DD88018FF7B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		896DC23E310B3E619F44CEA00285F3E3 /* Lion.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE30C3028A67FDB7C3FA7DF9B9B98D8 /* Lion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A25F8AFC2C9E05F05866E6DD3E9C481C /* Pods-OCPodThree_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE05E42EAA9004E62D154AA4A42EAF5 /* Pods-OCPodThree_Tests-dummy.m */; };
-		D8CBA3A580BB99786A8ABD8A6F2F1E3A /* OCPodThree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E4611F790DC1C0BDB33ADF8000C22C /* OCPodThree-dummy.m */; };
-		E1044CA848B3C1C7B78B07F0A9E1CBF6 /* OCPodThree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A93C767528E7E9A204E6B0D60CAB5C0F /* OCPodThree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E585BF8F409D19505D35E1BF59BBB0 /* SwiftLion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825CBF2B94CDF1381D683A10E5F02350 /* SwiftLion.swift */; };
+		C4266882C4DBF132CB1945201F2A4B5D /* OCPodThree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F9881E7E3432B94DA94C9A84775267 /* OCPodThree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD90CFCDF5A91D15070728812B89A47D /* Pods-OCPodThree_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D459CC3905CCEE3A5F78060EEA2738 /* Pods-OCPodThree_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		972638D9CB089DE3D82B54B3447A00E0 /* PBXContainerItemProxy */ = {
+		139560271372F7237C90EB0670D3BE6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 95F532370A91E22E28F1B21A0665AFBE;
 			remoteInfo = "Pods-OCPodThree_Example";
 		};
-		F857FF217D57E6483809580A850070F6 /* PBXContainerItemProxy */ = {
+		FB1164C5D63AA39AEE4BBAEC2524E342 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,40 +42,51 @@
 /* Begin PBXFileReference section */
 		04F224C24E036D7BD30139441EBAA43C /* Pods-OCPodThree_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodThree_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E5AB0835AF9DC7C199CC2F2EF7A7B44 /* Pods-OCPodThree_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OCPodThree_Tests"; path = Pods_OCPodThree_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AA6BA2E190BE0A50A8CDA34895DFFC6 /* OCPodThree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCPodThree.modulemap; sourceTree = "<group>"; };
-		338E444E74AEC59D7A0C3D22F2755596 /* OCPodThree-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodThree-prefix.pch"; sourceTree = "<group>"; };
+		1C1736BEA34C03DC34BCE77EFE5452F9 /* OCPodThree-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodThree-prefix.pch"; sourceTree = "<group>"; };
+		29DBC6D6BB97252E15CDB7B52319B2F1 /* OCPodThree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodThree.release.xcconfig; sourceTree = "<group>"; };
 		40EBFD4F2BBE96E07EEAC9E225E32D94 /* Pods-OCPodThree_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCPodThree_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41F9881E7E3432B94DA94C9A84775267 /* OCPodThree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodThree-umbrella.h"; sourceTree = "<group>"; };
 		46F0D85862709FCD8EA18B7624F91250 /* OCPodThree */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCPodThree; path = OCPodThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		496A1105D089CBE0E605F061AC1B1074 /* Pods-OCPodThree_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodThree_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C8E32F8FFEED661E7CE4E52160705F9 /* OCPodThree.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCPodThree.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51D459CC3905CCEE3A5F78060EEA2738 /* Pods-OCPodThree_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCPodThree_Example-umbrella.h"; sourceTree = "<group>"; };
-		54147D388BF9BB95D97BAC2D063D5A71 /* OCPodThree-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCPodThree-Info.plist"; sourceTree = "<group>"; };
 		5F14AB524910B708412AF32BC79AC040 /* Pods-OCPodThree_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCPodThree_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F26D027723E7FD8CD86757D85DC3DE6 /* OCPodThree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCPodThree-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		780EF439A0570C13F3DE1825DC2A10FA /* Pods-OCPodThree_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCPodThree_Example-frameworks.sh"; sourceTree = "<group>"; };
-		785C4A47A6E9FB5D3F3B56040738474F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OCPodThree/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7AE1151FE757158463D10837C84EE1B0 /* Pods-OCPodThree_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodThree_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BE05E42EAA9004E62D154AA4A42EAF5 /* Pods-OCPodThree_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCPodThree_Tests-dummy.m"; sourceTree = "<group>"; };
 		7D34C66D40DE47DAEA4FCEA9DAC4FE66 /* Pods-OCPodThree_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCPodThree_Tests.modulemap"; sourceTree = "<group>"; };
+		825CBF2B94CDF1381D683A10E5F02350 /* SwiftLion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftLion.swift; path = OCPodThree/Classes/SwiftLion.swift; sourceTree = "<group>"; };
 		8284194DE42AE99F7FD8388C7C07362E /* Pods-OCPodThree_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodThree_Example.release.xcconfig"; sourceTree = "<group>"; };
 		83BD206CD3CBAD6681BCBAF6E26FF2B6 /* Pods-OCPodThree_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OCPodThree_Example"; path = Pods_OCPodThree_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8515488A6A9F9C44471CBE645D1C1439 /* Pods-OCPodThree_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodThree_Tests-Info.plist"; sourceTree = "<group>"; };
-		8E0BB56A0C3FF3FCBCEA9BE512CF2569 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC8F9F598BD7A4C49792C48075BF01E /* OCPodThree.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCPodThree.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		A0588682668E4AC757A7D39986BB5E7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A0E4611F790DC1C0BDB33ADF8000C22C /* OCPodThree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCPodThree-dummy.m"; sourceTree = "<group>"; };
-		A848FF729CA965F0C34622DAB9293DAB /* OCPodThree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodThree.release.xcconfig; sourceTree = "<group>"; };
-		A93C767528E7E9A204E6B0D60CAB5C0F /* OCPodThree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodThree-umbrella.h"; sourceTree = "<group>"; };
+		8955547F897194BCAACADA6DD82D4644 /* OCPodThree-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCPodThree-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACAAB83EB5CA3E515000E618529A6AC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B09AA30D1CF94C116E546E1CD67A0F80 /* Pods-OCPodThree_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCPodThree_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B55CC8DCA9C8E60392D60AE16B64FB02 /* Pods-OCPodThree_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCPodThree_Example-dummy.m"; sourceTree = "<group>"; };
+		B6C0A9F48EB7B5594603F6D82EBE085A /* OCPodThree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCPodThree.modulemap; sourceTree = "<group>"; };
+		B886872AF4FE8B9BCAF1D83928B67010 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OCPodThree/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BC2F566E40FF73B8F4EFE346479EF092 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C63D975989E20BFE1D459C323BEC5A5D /* Pods-OCPodThree_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodThree_Example-Info.plist"; sourceTree = "<group>"; };
-		DB15BC1C47B4782CA15F7B4E08522791 /* OCPodThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodThree.debug.xcconfig; sourceTree = "<group>"; };
 		E500E9D1EFF6728AB4F95BDE39D1A4A9 /* Pods-OCPodThree_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCPodThree_Example.modulemap"; sourceTree = "<group>"; };
+		E7B6521502CBE06D47C34A8FEC1CD53E /* Lion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lion.m; path = OCPodThree/Classes/Lion.m; sourceTree = "<group>"; };
 		EB61717A083A397CECEA4A22F470BAF1 /* Pods-OCPodThree_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodThree_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F547264CAA68589E3222CD81A058DCFE /* Pods-OCPodThree_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodThree_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE30C3028A67FDB7C3FA7DF9B9B98D8 /* Lion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lion.h; path = OCPodThree/Classes/Lion.h; sourceTree = "<group>"; };
+		FDF3C52A19F01586FE8D709ACF3B3315 /* OCPodThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodThree.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D431F513C6514924CB0B440063B14F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826816DC9002037AB028DD88018FF7B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D339D4613EE6C3024A118E8700F06D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,36 +103,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECB034CE5B3D2A1EDB356F14ECBD88D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77DA684C3C164D6C19D717E1439F306E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DD80C9277AD435B48E58B6454AB83C0 /* Pod */ = {
+		2AC8DC38EB29A13F1EA5337F50CF72F9 /* OCPodThree */ = {
 			isa = PBXGroup;
 			children = (
-				A0588682668E4AC757A7D39986BB5E7A /* LICENSE */,
-				9DC8F9F598BD7A4C49792C48075BF01E /* OCPodThree.podspec */,
-				8E0BB56A0C3FF3FCBCEA9BE512CF2569 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		144F915BCFC782AAAF006D985CA14CCC /* OCPodThree */ = {
-			isa = PBXGroup;
-			children = (
-				785C4A47A6E9FB5D3F3B56040738474F /* ReplaceMe.m */,
-				0DD80C9277AD435B48E58B6454AB83C0 /* Pod */,
-				A06D09B3660040A9AA63538F9AEB65B3 /* Support Files */,
+				FCE30C3028A67FDB7C3FA7DF9B9B98D8 /* Lion.h */,
+				E7B6521502CBE06D47C34A8FEC1CD53E /* Lion.m */,
+				B886872AF4FE8B9BCAF1D83928B67010 /* ReplaceMe.m */,
+				825CBF2B94CDF1381D683A10E5F02350 /* SwiftLion.swift */,
+				466192E770D31BC8DAD3FF92CB4DCF37 /* Pod */,
+				42368B4B24BCBEC3582BEFAF3BF60366 /* Support Files */,
 			);
 			name = OCPodThree;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		42368B4B24BCBEC3582BEFAF3BF60366 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0A9F48EB7B5594603F6D82EBE085A /* OCPodThree.modulemap */,
+				6F26D027723E7FD8CD86757D85DC3DE6 /* OCPodThree-dummy.m */,
+				8955547F897194BCAACADA6DD82D4644 /* OCPodThree-Info.plist */,
+				1C1736BEA34C03DC34BCE77EFE5452F9 /* OCPodThree-prefix.pch */,
+				41F9881E7E3432B94DA94C9A84775267 /* OCPodThree-umbrella.h */,
+				FDF3C52A19F01586FE8D709ACF3B3315 /* OCPodThree.debug.xcconfig */,
+				29DBC6D6BB97252E15CDB7B52319B2F1 /* OCPodThree.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCPodThree";
 			sourceTree = "<group>";
 		};
 		44C74E4E071E34533768A2E83298D666 /* Pods-OCPodThree_Tests */ = {
@@ -135,6 +149,16 @@
 			);
 			name = "Pods-OCPodThree_Tests";
 			path = "Target Support Files/Pods-OCPodThree_Tests";
+			sourceTree = "<group>";
+		};
+		466192E770D31BC8DAD3FF92CB4DCF37 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F566E40FF73B8F4EFE346479EF092 /* LICENSE */,
+				4C8E32F8FFEED661E7CE4E52160705F9 /* OCPodThree.podspec */,
+				ACAAB83EB5CA3E515000E618529A6AC1 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		503C04F36944D9E3224AF70AC0847368 /* Targets Support Files */ = {
@@ -171,19 +195,12 @@
 			path = "Target Support Files/Pods-OCPodThree_Example";
 			sourceTree = "<group>";
 		};
-		A06D09B3660040A9AA63538F9AEB65B3 /* Support Files */ = {
+		6098BC76341563F6FE851525F62E44FC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2AA6BA2E190BE0A50A8CDA34895DFFC6 /* OCPodThree.modulemap */,
-				A0E4611F790DC1C0BDB33ADF8000C22C /* OCPodThree-dummy.m */,
-				54147D388BF9BB95D97BAC2D063D5A71 /* OCPodThree-Info.plist */,
-				338E444E74AEC59D7A0C3D22F2755596 /* OCPodThree-prefix.pch */,
-				A93C767528E7E9A204E6B0D60CAB5C0F /* OCPodThree-umbrella.h */,
-				DB15BC1C47B4782CA15F7B4E08522791 /* OCPodThree.debug.xcconfig */,
-				A848FF729CA965F0C34622DAB9293DAB /* OCPodThree.release.xcconfig */,
+				2AC8DC38EB29A13F1EA5337F50CF72F9 /* OCPodThree */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCPodThree";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CAF1F557A02D84A1FE10457055604A14 /* Products */ = {
@@ -200,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DF42EE063E149A4C4FC2600C1A1882B3 /* Development Pods */,
+				6098BC76341563F6FE851525F62E44FC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				CAF1F557A02D84A1FE10457055604A14 /* Products */,
 				503C04F36944D9E3224AF70AC0847368 /* Targets Support Files */,
@@ -215,22 +232,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF42EE063E149A4C4FC2600C1A1882B3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				144F915BCFC782AAAF006D985CA14CCC /* OCPodThree */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24786A144271CF037B7528E6012ABB49 /* Headers */ = {
+		29C71849BFF142EF31F4669E156B0B6E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1044CA848B3C1C7B78B07F0A9E1CBF6 /* OCPodThree-umbrella.h in Headers */,
+				896DC23E310B3E619F44CEA00285F3E3 /* Lion.h in Headers */,
+				C4266882C4DBF132CB1945201F2A4B5D /* OCPodThree-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +275,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				74D12D46CF30A5B29B4D3E57BEF7A0B6 /* PBXTargetDependency */,
+				D608E62C55309EB94A5F1A12D2DB4DA1 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCPodThree_Tests";
 			productName = Pods_OCPodThree_Tests;
@@ -284,7 +294,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				90A245988825C164BC110ED140322508 /* PBXTargetDependency */,
+				A209C7AF10FE7FCC0C6E34AF59BBEF54 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCPodThree_Example";
 			productName = Pods_OCPodThree_Example;
@@ -293,12 +303,12 @@
 		};
 		C91DB3D71FAC4CC53D6A580542DDF7BE /* OCPodThree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A01DFAD7189560BA282534CCEFD86254 /* Build configuration list for PBXNativeTarget "OCPodThree" */;
+			buildConfigurationList = 52E9FD0113FA4EAB42C204404E03D25D /* Build configuration list for PBXNativeTarget "OCPodThree" */;
 			buildPhases = (
-				24786A144271CF037B7528E6012ABB49 /* Headers */,
-				AD1D7C05CD9585AA56CD3C30E3A7587D /* Sources */,
-				ECB034CE5B3D2A1EDB356F14ECBD88D3 /* Frameworks */,
-				6195497C563421CC4C3DA58A2AB530E6 /* Resources */,
+				29C71849BFF142EF31F4669E156B0B6E /* Headers */,
+				476B653288AA219685FFA953AB4CE3D2 /* Sources */,
+				5D431F513C6514924CB0B440063B14F2 /* Frameworks */,
+				A504FE4A5B08A20CF6F0103FA357B217 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +349,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6195497C563421CC4C3DA58A2AB530E6 /* Resources */ = {
+		9A317CF703C2D8A79D1B139448A4871F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A317CF703C2D8A79D1B139448A4871F /* Resources */ = {
+		A504FE4A5B08A20CF6F0103FA357B217 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +373,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		476B653288AA219685FFA953AB4CE3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D26B6F33968D34B1E963C1D23B53E9C /* Lion.m in Sources */,
+				1D855231058F3B526FD1BA579A55B651 /* OCPodThree-dummy.m in Sources */,
+				57ACD6B31A1487AA1B225454C039BE5D /* ReplaceMe.m in Sources */,
+				C0E585BF8F409D19505D35E1BF59BBB0 /* SwiftLion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A26A5C8134DB3796C036D7070BA8FBF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A25F8AFC2C9E05F05866E6DD3E9C481C /* Pods-OCPodThree_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1D7C05CD9585AA56CD3C30E3A7587D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8CBA3A580BB99786A8ABD8A6F2F1E3A /* OCPodThree-dummy.m in Sources */,
-				5809CED3C08A77A85AAAA4AB3213159A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,24 +403,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		74D12D46CF30A5B29B4D3E57BEF7A0B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-OCPodThree_Example";
-			target = 95F532370A91E22E28F1B21A0665AFBE /* Pods-OCPodThree_Example */;
-			targetProxy = 972638D9CB089DE3D82B54B3447A00E0 /* PBXContainerItemProxy */;
-		};
-		90A245988825C164BC110ED140322508 /* PBXTargetDependency */ = {
+		A209C7AF10FE7FCC0C6E34AF59BBEF54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCPodThree;
 			target = C91DB3D71FAC4CC53D6A580542DDF7BE /* OCPodThree */;
-			targetProxy = F857FF217D57E6483809580A850070F6 /* PBXContainerItemProxy */;
+			targetProxy = FB1164C5D63AA39AEE4BBAEC2524E342 /* PBXContainerItemProxy */;
+		};
+		D608E62C55309EB94A5F1A12D2DB4DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OCPodThree_Example";
+			target = 95F532370A91E22E28F1B21A0665AFBE /* Pods-OCPodThree_Example */;
+			targetProxy = 139560271372F7237C90EB0670D3BE6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		055CD718F5E54AAC65D6DADF32F5AFD8 /* Debug */ = {
+		003EDB8CC8941E5DFD2E5FB30E43C1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB15BC1C47B4782CA15F7B4E08522791 /* OCPodThree.debug.xcconfig */;
+			baseConfigurationReference = FDF3C52A19F01586FE8D709ACF3B3315 /* OCPodThree.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -593,15 +605,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BE1201146F48BCD9035785C051879E8C /* Release */ = {
+		90741A0FBC911F6BEA6829BB898FE11D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A848FF729CA965F0C34622DAB9293DAB /* OCPodThree.release.xcconfig */;
+			baseConfigurationReference = 29DBC6D6BB97252E15CDB7B52319B2F1 /* OCPodThree.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -742,11 +755,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A01DFAD7189560BA282534CCEFD86254 /* Build configuration list for PBXNativeTarget "OCPodThree" */ = {
+		52E9FD0113FA4EAB42C204404E03D25D /* Build configuration list for PBXNativeTarget "OCPodThree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				055CD718F5E54AAC65D6DADF32F5AFD8 /* Debug */,
-				BE1201146F48BCD9035785C051879E8C /* Release */,
+				003EDB8CC8941E5DFD2E5FB30E43C1F4 /* Debug */,
+				90741A0FBC911F6BEA6829BB898FE11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
