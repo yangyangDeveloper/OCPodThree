@@ -1,0 +1,22 @@
+{
+  "name": "OCPodThree",
+  "version": "0.1.0",
+  "summary": "A short description of OCPodThree.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangyangDeveloper/OCPodThree",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangyangDeveloper": "zyydeveloper@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yangyangDeveloper/OCPodThree.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OCPodThree/Classes/**/*"
+}
