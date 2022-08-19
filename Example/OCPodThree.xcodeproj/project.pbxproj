@@ -303,10 +303,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OCPodThree_Example/Pods-OCPodThree_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OCPodThree/OCPodThree.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftPodOne/SwiftPodOne.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCPodThree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPodOne.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

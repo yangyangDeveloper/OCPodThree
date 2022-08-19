@@ -1,16 +1,23 @@
 PODS:
-  - OCPodThree (0.1.0)
+  - OCPodThree (0.0.2):
+    - SwiftPodOne
+  - SwiftPodOne (0.1.0)
 
 DEPENDENCIES:
   - OCPodThree (from `../`)
+
+SPEC REPOS:
+  "git@github.com:yangyangDeveloper/ZYYSpecs.git":
+    - SwiftPodOne
 
 EXTERNAL SOURCES:
   OCPodThree:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OCPodThree: fa2b2fecea107003f4a516e47edbe5eade045392
+  OCPodThree: aa81fb7726d38f1c67f9450c3f2ea1464ef69d51
+  SwiftPodOne: a2f79c1ca71a2c3ff91e4ab2733244ec4ee108cb
 
-PODFILE CHECKSUM: 3170ab4171b4ca3aeaea6630312c18db664026fd
+PODFILE CHECKSUM: 02d08fae8d74458694b6d719678524e539775b57
 
 COCOAPODS: 1.11.3

@@ -20,6 +20,8 @@
     [super viewDidLoad];
     Lion *lion = [[Lion alloc] init];
     [lion run];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

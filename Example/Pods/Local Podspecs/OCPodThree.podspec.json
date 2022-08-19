@@ -1,6 +1,6 @@
 {
   "name": "OCPodThree",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "summary": "OC创建pod ocswift混编",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangyangDeveloper/OCPodThree",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "git@github.com:yangyangDeveloper/OCPodThree.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "OCPodThree/Classes/**/*"
+  "source_files": "OCPodThree/Classes/**/*",
+  "dependencies": {
+    "SwiftPodOne": [
+
+    ]
+  }
 }

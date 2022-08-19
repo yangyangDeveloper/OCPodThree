@@ -1,0 +1,6 @@
+framework module SwiftPodOne {
+  umbrella header "SwiftPodOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
