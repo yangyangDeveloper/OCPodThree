@@ -21,6 +21,8 @@
     Lion *lion = [[Lion alloc] init];
     [lion run];
     
+    SwiftMonkey * mon = [[SwiftMonkey alloc] init];
+    [mon run];
     
 }
 

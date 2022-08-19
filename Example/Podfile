@@ -5,9 +5,11 @@ source 'git@github.com:yangyangDeveloper/ZYYSpecs.git'
 platform :ios, '10.0'
 
 target 'OCPodThree_Example' do
-  pod 'OCPodThree', :path => '../'
+  #pod 'OCPodThree', :path => '../'
   
   #pod 'OCPodThree',:podspec => '../OCPodThree.podspec'
+  
+  pod 'OCPodThree',:git => 'git@github.com:yangyangDeveloper/OCPodThree.git'
   
   target 'OCPodThree_Tests' do
     inherit! :search_paths
